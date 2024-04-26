@@ -1,4 +1,4 @@
-# Normalize.css
+# <div align="center"> Normalize CSS </div>
 
 ## Overview
 
@@ -61,9 +61,9 @@ Normalize.css is open-source software licensed under the [MIT license](https://o
 
 🚀 Happy coding! 🎉
 
-# ⬇️ Portuguese 🇧🇷
+# <div align="center">⬇️ Portuguese 🇧🇷</div>
 
-# Normalize.css
+# <div align="center">Normalize.css</div>
 
 ## Visão geral
 
