@@ -115,12 +115,18 @@
     background: red;
     text-align: center;
     position: relative;
-    /*animation-name: animacao-caixa;
+    /*-webkit-animation-name: animacao-caixa;
+    -moz-animation-name: animacao-caixa;
+    -o-animation-name: animacao-caixa;
+    animation-name: animacao-caixa2;
     animation-duration: 5s;
     animation-delay: 3s;
     animation-iteration-count: infinite;
     animation-duration: alternate;*/
 
+    -webkit-animation: animacao-caixa 5s 3s 2 alternate;
+    -moz-animation: animacao-caixa 5s 3s 2 alternate;
+    -o-animation: animacao-caixa 5s 3s 2 alternate;
     animation: animacao-caixa 5s 3s 2 alternate;
 
 }
@@ -130,12 +136,18 @@
     height: 300px;
     background: red;
     text-align: center;
-    /*animation-name: animacao-caixa2;
+    /*-webkit-animation-name: animacao-caixa2;
+    -moz-animation-name: animacao-caixa2;
+    -o-animation-name: animacao-caixa2;
+    animation-name: animacao-caixa2;
     animation-duration: 5s;
     animation-delay: 3s;
     animation-iteration-count: infinite;
     animation-duration: alternate;*/
 
+    -webkit-animation: animacao-caixa2 5s 3s 2 alternate;
+    -moz-animation: animacao-caixa2 5s 3s 2 alternate;
+    -o-animation: animacao-caixa2 5s 3s 2 alternate;
     animation: animacao-caixa2 5s 3s 2 alternate;
 }
 
