@@ -4,88 +4,111 @@
 
 /* Estilizando style.css */
 
+/* Transições */
+
+h2 {
+    text-transform: uppercase;
+}
+
+#caixa {
+    width: 300px;
+    height: 300px;
+    background: orange;
+}
+
+#caixa:hover {
+    width: 400px;
+    background: yellow;
+    /*transition: width 3s, background 3s;*/
+    transition: all 3s;
+}
+
+/* Fim Transições */
+
 /* Animações */
+
+/*
 @-webkit-keyframes animacao-caixa {
-    from { /* Estado inicial */
+    from { /* Estado inicial 
         background: red;
         border-radius: 0px;
     }
 
-    to { /* Estado final */
+    to { /* Estado final 
         background: blue;
         border-radius: 300px;
     }
 }
 
 @-webkit-keyframes animacao-caixa2 {
-    from { /* Estado inicial */
+    from { /* Estado inicial 
         background: red;
         border-radius: 0px;
     }
 
-    to { /* Estado final */
+    to { /* Estado final 
         background: green;
         border-radius: 300px;
     }
 }
 
 @-moz-keyframes animacao-caixa {
-    from { /* Estado inicial */
+    from { /* Estado inicial 
         background: red;
         border-radius: 0px;
     }
 
-    to { /* Estado final */
+    to { /* Estado final 
         background: blue;
         border-radius: 300px;
     }
 }
 
 @-moz-keyframes animacao-caixa2 {
-    from { /* Estado inicial */
+    from { /* Estado inicial 
         background: red;
         border-radius: 0px;
     }
 
-    to { /* Estado final */
+    to { /* Estado final 
         background: green;
         border-radius: 300px;
     }
 }
 
 @-o-keyframes animacao-caixa {
-    from { /* Estado inicial */
+    from { /* Estado inicial 
         background: red;
         border-radius: 0px;
     }
 
-    to { /* Estado final */
+    to { /* Estado final 
         background: blue;
         border-radius: 300px;
     }
 }
 
 @-o-keyframes animacao-caixa2 {
-    from { /* Estado inicial */
+    from { /* Estado inicial 
         background: red;
         border-radius: 0px;
     }
 
-    to { /* Estado final */
+    to { /* Estado final 
         background: green;
         border-radius: 300px;
     }
 }
 
 @keyframes animacao-caixa {
-    from { /* Estado inicial */
+    from { /* Estado inicial 
         background: red;
         border-radius: 0px;
         top: 0;
         left: 0;
     }
 
-    to { /* Estado final */
+    to { /* Estado final 
         background: blue;
         border-radius: 300px;
         top: 200px;
@@ -94,20 +117,20 @@
 }
 
 @keyframes animacao-caixa2 {
-    from { /* Estado inicial */
+    from { /* Estado inicial 
         background: red;
         border-radius: 0px;
         top: 0;
         left: 0;
     }
 
-    to { /* Estado final */
+    to { /* Estado final 
         background: green;
         border-radius: 300px;
         top: 200px;
         left: 200px;
     }
-}/* Fim Animações */
+}
 
 #caixa {
     width: 300px;
@@ -122,7 +145,7 @@
     animation-duration: 5s;
     animation-delay: 3s;
     animation-iteration-count: infinite;
-    animation-duration: alternate;*/
+    animation-duration: alternate;
 
     -webkit-animation: animacao-caixa 5s 3s 2 alternate;
     -moz-animation: animacao-caixa 5s 3s 2 alternate;
@@ -143,13 +166,14 @@
     animation-duration: 5s;
     animation-delay: 3s;
     animation-iteration-count: infinite;
-    animation-duration: alternate;*/
+    animation-duration: alternate;
 
     -webkit-animation: animacao-caixa2 5s 3s 2 alternate;
     -moz-animation: animacao-caixa2 5s 3s 2 alternate;
     -o-animation: animacao-caixa2 5s 3s 2 alternate;
     animation: animacao-caixa2 5s 3s 2 alternate;
 }
+/* Fim Animações */
 
 /* Sombras 
 #caixa {
