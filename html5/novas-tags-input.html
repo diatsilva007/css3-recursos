@@ -13,8 +13,48 @@
 
 <body>
 
-    
+    <form action="">
+
+        <!-- Novos elementos e inputs HTML 5, required -->
+        <label for="name">Nome:</label>
+        <input type="text" name="nome" id="nome"  autofocus>
+        <br><br>
+
+        <!-- E-mail, required -->
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" >
+        <br><br>
+
+        <!-- Número -->
+        <label for="numero">Número:</label>
+        <input type="number" id="numero" min="1" max="20"
+        step="5">
+        <br><br>
+
+        <!-- URL -->
+        <label for="url">Url:</label>
+        <input type="url" id="url" placeholder="ex: https://www.seulinkaqui.com">
+        <br><br>
+
+        <!-- Pesquisa -->
+        <label for="pesquisa">Pesquisa:</label>
+        <input type="search" id="pesquisa">
+        <br><br>
+
+        <!-- Range -->
+        <label for="range">Range:</label>
+        <input type="range" id="range" min="1" max="20" value="10">
+        <br><br>
+
+        <!-- Data -->
+        <label for="data">Data:</label>
+        <input type="date" id="data">
+        <br><br>
+
+        <input type="submit" name="" value="Enviar">
+
+    </form>
 
 </body>
-
+    
 </html>
