@@ -40,13 +40,13 @@
         }
 
         .item {
-            width: 200px;
+            /*width: 200px;*/
             height: 100px;
             margin: 10px;
             background: white;
             border: 1px solid gray;
 
-            /* Define o espaço de ocupado de um item */
+            /* Define proporção de espaço ocupado por um item */
             flex-grow: 0;
 
             /* Define a capacidade de redução do tamanho do item */
@@ -54,7 +54,7 @@
 
             /* Indica o tamanho inicial do flex item, antes
             da distribuição do espaço restante*/
-            flex-basis: ;
+            flex-basis: 200px;
         }
 
         .item1 {
@@ -63,13 +63,13 @@
         }
 
         .item2 {
-            /*flex-grow: 2;*/
+            flex-grow: 1;
             /*flex-shrink: 2;*/
 
         }
 
         .item3 {
-            /*flex-grow: 2;*/
+            flex-grow: 2;
             /*flex-shrink: 5;*/
 
         }
