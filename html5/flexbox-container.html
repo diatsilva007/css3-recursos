@@ -45,7 +45,43 @@
             margin: 10px;
             background: white;
             border: 1px solid gray;
+
+            /* Define o espaço de ocupado de um ítem */
+            flex-grow: 0;
         }
+
+        .item1 {
+            flex-grow: 1;
+        }
+
+        .item2 {
+            flex-grow: 2;
+        }
+
+        /* Ordem1 
+        .ordem1 {
+            order: 1;
+        }*/
+
+        /* Ordem2 
+        .ordem2 {
+            order: 2;
+        }*/
+
+        /* Ordem3
+        .ordem3 {
+            order: 3;
+        }*/
+
+        /* Ordem4
+        .ordem4 {
+            order: 4;
+        }*/
+
+        /* Ordem
+        .ordem {
+            order: -1;
+        }*/
 
     </style>
     
@@ -56,8 +92,8 @@
     <h1>Flexbox</h1>
 
     <div id="conteudo">
-        <div class="item">01</div>
-        <div class="item">02</div>
+        <div class="item item1">01</div>
+        <div class="item item2">02</div>
         <div class="item">03</div>
         <div class="item">04</div>
     </div>
